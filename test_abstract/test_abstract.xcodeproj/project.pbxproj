@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9A7BCDE61F53E3920098FD2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCDE51F53E3920098FD2C /* main.m */; };
-		9A7BCDEE1F53E3CD0098FD2C /* BaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCDED1F53E3CD0098FD2C /* BaseEvent.m */; };
-		9A7BCDF31F53E5D80098FD2C /* AccountEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCDF21F53E5D80098FD2C /* AccountEvent.m */; };
-		9A7BCDF71F53E8600098FD2C /* AccountImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCDF61F53E8600098FD2C /* AccountImp.m */; };
+		9A7BCE041F53EE5B0098FD2C /* AccountEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCDFC1F53EE5B0098FD2C /* AccountEvent.m */; };
+		9A7BCE051F53EE5B0098FD2C /* BaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCDFE1F53EE5B0098FD2C /* BaseEvent.m */; };
+		9A7BCE061F53EE5B0098FD2C /* AccountImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BCE031F53EE5B0098FD2C /* AccountImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +28,13 @@
 /* Begin PBXFileReference section */
 		9A7BCDE21F53E3920098FD2C /* test_abstract */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_abstract; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7BCDE51F53E3920098FD2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A7BCDEC1F53E3CD0098FD2C /* BaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEvent.h; sourceTree = "<group>"; };
-		9A7BCDED1F53E3CD0098FD2C /* BaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEvent.m; sourceTree = "<group>"; };
-		9A7BCDF11F53E5D80098FD2C /* AccountEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEvent.h; sourceTree = "<group>"; };
-		9A7BCDF21F53E5D80098FD2C /* AccountEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEvent.m; sourceTree = "<group>"; };
-		9A7BCDF41F53E6FF0098FD2C /* AccountInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountInterface.h; sourceTree = "<group>"; };
-		9A7BCDF51F53E8600098FD2C /* AccountImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountImp.h; sourceTree = "<group>"; };
-		9A7BCDF61F53E8600098FD2C /* AccountImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountImp.m; sourceTree = "<group>"; };
+		9A7BCDFB1F53EE5B0098FD2C /* AccountEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEvent.h; sourceTree = "<group>"; };
+		9A7BCDFC1F53EE5B0098FD2C /* AccountEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEvent.m; sourceTree = "<group>"; };
+		9A7BCDFD1F53EE5B0098FD2C /* BaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEvent.h; sourceTree = "<group>"; };
+		9A7BCDFE1F53EE5B0098FD2C /* BaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEvent.m; sourceTree = "<group>"; };
+		9A7BCE001F53EE5B0098FD2C /* AccountInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInterface.h; sourceTree = "<group>"; };
+		9A7BCE021F53EE5B0098FD2C /* AccountImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountImp.h; sourceTree = "<group>"; };
+		9A7BCE031F53EE5B0098FD2C /* AccountImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountImp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +67,56 @@
 		9A7BCDE41F53E3920098FD2C /* test_abstract */ = {
 			isa = PBXGroup;
 			children = (
+				9A7BCDF81F53EE5B0098FD2C /* plugin */,
 				9A7BCDE51F53E3920098FD2C /* main.m */,
-				9A7BCDEC1F53E3CD0098FD2C /* BaseEvent.h */,
-				9A7BCDED1F53E3CD0098FD2C /* BaseEvent.m */,
-				9A7BCDF11F53E5D80098FD2C /* AccountEvent.h */,
-				9A7BCDF21F53E5D80098FD2C /* AccountEvent.m */,
-				9A7BCDF41F53E6FF0098FD2C /* AccountInterface.h */,
-				9A7BCDF51F53E8600098FD2C /* AccountImp.h */,
-				9A7BCDF61F53E8600098FD2C /* AccountImp.m */,
 			);
 			path = test_abstract;
+			sourceTree = "<group>";
+		};
+		9A7BCDF81F53EE5B0098FD2C /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BCDF91F53EE5B0098FD2C /* event */,
+				9A7BCDFF1F53EE5B0098FD2C /* header */,
+				9A7BCE011F53EE5B0098FD2C /* test */,
+			);
+			path = plugin;
+			sourceTree = "<group>";
+		};
+		9A7BCDF91F53EE5B0098FD2C /* event */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BCDFD1F53EE5B0098FD2C /* BaseEvent.h */,
+				9A7BCDFE1F53EE5B0098FD2C /* BaseEvent.m */,
+				9A7BCDFA1F53EE5B0098FD2C /* account */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		9A7BCDFA1F53EE5B0098FD2C /* account */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BCDFB1F53EE5B0098FD2C /* AccountEvent.h */,
+				9A7BCDFC1F53EE5B0098FD2C /* AccountEvent.m */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		9A7BCDFF1F53EE5B0098FD2C /* header */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BCE001F53EE5B0098FD2C /* AccountInterface.h */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		9A7BCE011F53EE5B0098FD2C /* test */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BCE021F53EE5B0098FD2C /* AccountImp.h */,
+				9A7BCE031F53EE5B0098FD2C /* AccountImp.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,10 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7BCE041F53EE5B0098FD2C /* AccountEvent.m in Sources */,
+				9A7BCE051F53EE5B0098FD2C /* BaseEvent.m in Sources */,
+				9A7BCE061F53EE5B0098FD2C /* AccountImp.m in Sources */,
 				9A7BCDE61F53E3920098FD2C /* main.m in Sources */,
-				9A7BCDF31F53E5D80098FD2C /* AccountEvent.m in Sources */,
-				9A7BCDF71F53E8600098FD2C /* AccountImp.m in Sources */,
-				9A7BCDEE1F53E3CD0098FD2C /* BaseEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +308,7 @@
 				9A7BCDEB1F53E3920098FD2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
