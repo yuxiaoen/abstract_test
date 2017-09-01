@@ -8,7 +8,13 @@
 
 #import "BaseEvent.h"
 
+
+
 @implementation BaseEvent
+
+@synthesize EventName;
+@synthesize EventParams;
+
 
 -(instancetype)initWithName:(NSString *)name{
     self = [super init];

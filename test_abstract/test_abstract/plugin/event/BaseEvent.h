@@ -11,6 +11,8 @@
 @interface BaseEvent : NSObject
 
 @property (nonatomic, strong) NSString *EventName;
+@property (nonatomic, strong) NSDictionary *EventParams;
+
 
 
 -(instancetype)initWithName:(NSString *)name;

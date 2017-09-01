@@ -22,7 +22,7 @@
 
 -(void)AttachMod:(id)mod{
     id<AccountInterface> interface = mod;
-    [interface onLogin:nil];
+    [interface onLogin:self.EventParams];
 }
 
 @end

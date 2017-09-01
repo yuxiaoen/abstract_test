@@ -12,7 +12,7 @@
 
 -(void)onLogin:(id)params{
     
-    NSLog(@"account login");
+    NSLog(@"account login:%@",params);
 }
 
 @end
