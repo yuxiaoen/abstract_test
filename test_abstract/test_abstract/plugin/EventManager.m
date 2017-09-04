@@ -32,6 +32,10 @@
 }
 
 -(void)dispatchEvent:(NSDictionary *)dict{
+    NSString *moduleName = [dict valueForKey:@"moduleName"];
+    
+    Class class = NSClassFromString(moduleName);
+    
     
     
     
